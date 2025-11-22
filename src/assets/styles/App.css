@@ -1,12 +1,3 @@
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #4b50b9;
-}
-
 body {
   display: flex;
   min-width: 320px;

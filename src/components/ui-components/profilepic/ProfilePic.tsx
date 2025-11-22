@@ -1,6 +1,6 @@
 import styles from "./ProfilePic.module.css";
-import pfpImage from "../../../assets/img/pfp.jpg";
-import backgroundIMG from "../../../assets/img/placeholder.png";
+const pfpImage = "/img/pfp.jpg";
+const backgroundIMG = "/img/background.jpg";
 
 export function ProfilePic() {
   return (

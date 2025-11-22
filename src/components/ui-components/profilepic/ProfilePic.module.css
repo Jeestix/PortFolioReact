@@ -16,6 +16,7 @@
 
   border: 10px solid;
   border-color: #0c1117;
+  object-fit: cover;
 
   z-index: 10;
 }
