@@ -1,0 +1,27 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4b50b9;
+}
+
+body {
+  display: flex;
+  min-width: 320px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1.1;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.1;
+  color: #ffffff;
+  font-weight: 400;
+}
