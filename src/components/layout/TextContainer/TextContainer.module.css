@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 60px;
+  overflow-wrap: break-word;
+  gap: 0.5rem;
+  text-align: center;
+}

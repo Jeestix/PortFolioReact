@@ -1,6 +1,8 @@
 import styles from "./ProfilePic.module.css";
-const pfpImage = "/img/pfp.jpg";
-const backgroundIMG = "/img/background.jpg";
+import { getProfilePicURL, getBannerPicURL } from "../../../datamanagment/data";
+
+const pfpImage = getProfilePicURL();
+const backgroundIMG = getBannerPicURL();
 
 export function ProfilePic() {
   return (
