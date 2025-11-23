@@ -1,12 +1,13 @@
 import styles from "./Title.module.css";
-import { getTitle } from "../../../datamanagment/data";
 
-const title = getTitle();
+interface TitleContent {
+  children: string;
+}
 
-export function Title() {
+export function Title({ children }: TitleContent) {
   return (
     <div className={styles.container}>
-      <h1>{title}</h1>
+      <h1>{children}</h1>
     </div>
   );
 }

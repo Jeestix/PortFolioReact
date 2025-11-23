@@ -2,5 +2,61 @@
   "title": "Hey i'm Justin",
   "description": "I'm an aspiring Software Developer from Paderborn, Germany. Currently hobby Python Developer with Full-Stack experience (FastAPI + React). Interested in MCP servers for AI integration and currently learning .NET",
   "profilepicURL": "/img/pfp.jpg",
-  "bannerURL": "/img/background.jpg"
+  "bannerURL": "/img/background.jpg",
+
+  "technologies": [
+    {
+      "group": "frontend",
+      "items": ["React", "Typescript", "Javascript", "HTML/CSS"]
+    },
+
+    {
+      "group": "backend",
+      "items": [
+        "FastAPI",
+        "Flask",
+        "Python",
+        "C#/.NET",
+        "SQL",
+        "Github Actions"
+      ]
+    },
+
+    {
+      "group": "other",
+      "items": [
+        "SQLServer",
+        "SQLite",
+        "CSS",
+        "Azure",
+        "MCP SDK",
+        "Ollama",
+        "RAG",
+        "Git"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "name",
+      "description": "description",
+      "url": "url",
+      "image": "/img/project1.jpg"
+    },
+
+    {
+      "name": "name2",
+      "description": "description",
+      "url": "url",
+      "image": "/img/project2.jpg"
+    },
+
+    {
+      "name": "name3",
+      "description": "description",
+      "url": "url",
+      "image": "/img/project3.jpg"
+    }
+  ]
 }

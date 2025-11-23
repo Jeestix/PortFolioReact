@@ -15,3 +15,11 @@ export function getDescription() {
 export function getTitle() {
   return data.title;
 }
+
+export function getTechnologies() {
+  return data.technologies;
+}
+
+export function getProjects() {
+  return data.projects;
+}
