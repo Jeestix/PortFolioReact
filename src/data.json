@@ -1,13 +1,17 @@
 {
   "title": "Hey i'm Justin",
-  "description": "I'm an aspiring Software Developer from Paderborn, Germany. Currently hobby Python Developer with Full-Stack experience (FastAPI + React). Interested in MCP servers for AI integration and currently learning .NET",
+  "description": "I'm an aspiring Software Developer from Germany. Currently hobby Python Developer with Full-Stack experience (FastAPI + React). Interested in MCP servers for AI integration and currently learning .NET/C#",
   "profilepicURL": "/img/pfp.jpg",
   "bannerURL": "/img/background.jpg",
 
   "technologies": [
     {
       "group": "frontend",
-      "items": ["React", "Typescript", "Javascript", "HTML/CSS"]
+      "items": [
+      "React", 
+      "Typescript", 
+      "Javascript", 
+      "HTML/CSS"]
     },
 
     {
@@ -39,22 +43,22 @@
 
   "projects": [
     {
-      "name": "name",
-      "description": "description",
+      "name": "MCP Server: Python and C#",
+      "description": "MCP Server in Python and C# for search in the german commercial register to request german company data. Integrated as an Azure Function(Both Python and C#).",
       "url": "url",
       "image": "/img/project1.jpg"
     },
 
     {
-      "name": "name2",
-      "description": "description",
+      "name": "Pygame Blackjack",
+      "description": "Blackjack adaptation in Pygame.",
       "url": "url",
       "image": "/img/project2.jpg"
     },
 
     {
-      "name": "name3",
-      "description": "description",
+      "name": "Download sorter in Python",
+      "description": "Automated Python script to sort Files in Download folder, according to their extension.",
       "url": "url",
       "image": "/img/project3.jpg"
     }
