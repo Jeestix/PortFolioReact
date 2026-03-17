@@ -11,30 +11,34 @@ import { Header } from "./components/ui-components/header/Header";
 import { ProjectContainer } from "./components/layout/ProjectContainer";
 import { Project } from "./components/ui-components/project/Project";
 import { getTitle } from "./datamanagment/data";
+import GridBackground from './components/BG/GridBackground';
 
 const maintitle = getTitle();
 
 function App() {
   return (
     <>
-      <MainContainer>
-        <ProfilePic></ProfilePic>
+      <GridBackground />
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <MainContainer>
+          <ProfilePic></ProfilePic>
 
-        <TextContainer>
-          <Title>{maintitle}</Title>
-          <Description></Description>
-        </TextContainer>
+          <TextContainer>
+            <Title>{maintitle}</Title>
+            <Description></Description>
+          </TextContainer>
 
-        <TechContainer>
-          <Header>TECHNOLOGIES</Header>
-          <Technologie></Technologie>
-        </TechContainer>
+          <TechContainer>
+            <Header>TECHNOLOGIES</Header>
+            <Technologie></Technologie>
+          </TechContainer>
 
-        <ProjectContainer>
-          <Header>PROJECTS</Header>
-          <Project></Project>
-        </ProjectContainer>
-      </MainContainer>
+          <ProjectContainer>
+            <Header>PROJECTS</Header>
+            <Project></Project>
+          </ProjectContainer>
+        </MainContainer>
+      </div>
     </>
   );
 }
