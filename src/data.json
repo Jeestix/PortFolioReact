@@ -1,8 +1,8 @@
 {
   "title": "Hey i'm Justin",
   "description": "I'm an aspiring Software Developer from Germany. Currently hobby Python Developer with Full-Stack experience (FastAPI + React). Interested in MCP servers for AI integration and currently learning .NET/C#",
-  "profilepicURL": "/img/pfp.jpg",
-  "bannerURL": "/img/background.jpg",
+  "profilepicURL": "img/pfp.jpg",
+  "bannerURL": "img/background.jpg",
 
   "technologies": [
     {
@@ -46,21 +46,21 @@
       "name": "MCP Server: Python and C#",
       "description": "MCP Server in Python and C# for search in the german commercial register to request german company data. Integrated as an Azure Function(Both Python and C#).",
       "url": "url",
-      "image": "/img/project1.jpg"
+      "image": "img/project1.jpg"
     },
 
     {
       "name": "Pygame Blackjack",
       "description": "Blackjack adaptation in Pygame.",
       "url": "url",
-      "image": "/img/project2.jpg"
+      "image": "img/project2.jpg"
     },
 
     {
       "name": "Download sorter in Python",
       "description": "Automated Python script to sort Files in Download folder, according to their extension.",
       "url": "url",
-      "image": "/img/project3.jpg"
+      "image": "img/project3.jpg"
     }
   ]
 }
